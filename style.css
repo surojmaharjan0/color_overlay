@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	font-family: 'Segoe-UI',Tahoma;
+}
+header{
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper-image{
+	height: 80vh;
+	width: 100%;
+	background-image: url(image3.jpg);
+	background-size: cover;
+
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.overlay{
+	height: 80vh;
+	width: 100%;
+	background:#225470;
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0.6;
+}
+
+.top-content{
+	color: white;
+	z-index: 2;
+}
+.company{
+	font-size: 55px;
+}
+.tagline{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.btn{
+	background:#34bca0;
+	border-radius: 5px;
+	padding:12px;
+	text-decoration: none;
+	color: white;
+}
+
